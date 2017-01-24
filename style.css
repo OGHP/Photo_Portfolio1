@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+}
+
 #header {
   text-align: center;
   color: gray;
@@ -9,6 +13,23 @@
 #headerImage {
   width: 30%;
   max-height: 150px;
+}
+
+.navbar {
+  background-color: black;
+  margin-top: 10px;
+}
+
+.navbar-nav {
+    width: 90%;
+}
+
+.navbar-nav>li {
+  width: 16.6%;
+}
+
+.navbar-default .navbar-collapse {
+  background-color: black; 
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -26,13 +47,17 @@
 #instagram {
   width:20px;
   max-height: 20px;
+  color: gray;
 }
 
 #container {
-    width: 100%;
+/*    width: 100%;
     max-width: 900px;
-    margin: 2em auto;
+    margin: 2em auto;*/
 }
+
+
+/*NEED TO DECIDE HOW MANY COLUMNS ARE WANTED/NEEDED*/
 .cols {
     -moz-column-count:4;
     -moz-column-gap: 3%;
@@ -45,10 +70,58 @@
     column-width: 30%;
     background-color: black;
 }
+
+#hollyWedding {
+  width: 103%;
+  margin-top: 4px;
+}
+
+#booneWedding {
+ width: 103%;
+ margin-top: 4px;
+}
+
+#heatherFamily {
+  width: 103%;
+  margin-top: 4px;
+}
+
+#pie {
+ width: 103%;
+ margin-top: 4px;
+}
+
+#reflection {
+ width: 103%;
+ margin-top: 4px;
+}
+
+#redcross {
+ width: 103%;
+ margin-top: 4px;
+}
+
+#moon {
+ width: 103%;
+ margin-top: 4px;
+}
+
+#rainier {
+ width: 103%;
+ margin-top: 4px;
+} 
+
+#familyBridge {
+ width: 103%;
+ margin-top: 4px;
+}
+
+
 .box {
     margin-bottom: 20px;
+    margin-top: 20px;
 }
-.box.one {
+/*.box.one {
     height: 200px;
     background-color: #d77575;
 }
@@ -71,4 +144,4 @@
 .box.six {
     background-color: #baafb1;
     height: 200px;
-}
+}*/
